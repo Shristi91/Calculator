@@ -8,7 +8,7 @@ const updateScreen = (number) =>{
       calculatorScreen.value = number
 }
 const inputNumber = (number) => {
-      currentInput = number
+      currentInput += number
 }
 numbers.forEach((number) =>{
     number.addEventListener("click", (event) =>{
